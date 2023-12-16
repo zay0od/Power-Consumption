@@ -1,8 +1,13 @@
-# openai-quickstart-vue
+# 🚀 Electrical Power Consumption App 
 
-This is a quickstart template for using OpenAI's GPT-3 API in Vue 3.
+🏆 Winner of 1st place at Dubai GITEX Hackathon!
 
-![image](./assets/preview.png)
+⚡️ Our app, designed for Hackmasters, analyzes electrical power consumption data and displays it on an intuitive web UI.
+
+🌐 Leveraging OpenAI ChatGPT API, we offer smart solutions to reduce power consumption and enhance energy efficiency.
+
+
+
 
 ## Setup
 
@@ -44,7 +49,3 @@ This is a quickstart template for using OpenAI's GPT-3 API in Vue 3.
     ```shell
     pnpm build
     ```
-# Power-Consumption
-# Power-Consumption
-# Power-Consumption
-# Power-Consumption
