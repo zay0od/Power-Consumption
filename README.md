@@ -14,8 +14,8 @@
 1. Clone this repository and navigate into the project directory
 
     ```shell
-    git clone https://github.com/ysfscream/openai-quickstart-vue.git
-    cd openai-quickstart-vue
+    git clone https://github.com/zay0od/Power-Consumption.git
+    cd Power-Consumption
     ```
 
 2. Using `pnpm` to install dependencies
