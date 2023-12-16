@@ -18,10 +18,10 @@
     cd Power-Consumption
     ```
 
-2. Using `pnpm` to install dependencies
+2. Using `npm` to install dependencies
   
     ```shell
-    pnpm install
+    npm install
     ```
 
 3. Create the `.env` file to store your OpenAI API key and Orgnaization ID
@@ -41,11 +41,11 @@
 5. Run the development server, and open [http://localhost:5173](http://localhost:5173) in your browser
 
     ```shell
-    pnpm dev
+    npm run dev
     ```
 
 6. Build the project for production
 
     ```shell
-    pnpm build
+    npm run build
     ```
