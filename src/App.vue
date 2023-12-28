@@ -1,36 +1,50 @@
 <template>
-  <div class="main-ss p-2">
-    <div class="user-info" style="margin-bottom: 6rem">
-      <div class="d-flex align-items-center justify-content-between">
-        <div>
-          <small><small>Welcome</small></small>
-          <h2>Zayed</h2>
+  <div class="container mx-auto max-w-lg my-3 flex flex-col gap-3">
+    <div class="w-full bg-gray-50 rounded-lg shadow p-4 md:p-6">
+      <div class="flex items-center">
+        <div class="flex-shrink-0">
+          <img
+            class="w-10 h-10 rounded-full"
+            src="https://picsum.photos/300/300"
+            alt="Neil image"
+          />
         </div>
-
-        <div>
-          <small><small>E wallet</small></small>
-          <h5>100 Points</h5>
+        <div class="flex-1 min-w-0 ms-4">
+          <p class="font-medium text-gray-900 truncate">Zayed Dubai</p>
+          <p class="text-sm text-gray-500 truncate">zayed@ai-power.com</p>
+        </div>
+        <div class="inline-flex items-center">
+          <div class="flex flex-col">
+            <h5 class="font-semibold text-xl text-cyan-900">100</h5>
+            <small class="text-gray-500">points</small>
+          </div>
         </div>
       </div>
-
-      <hr style="border: 2px solid rgb(0, 0, 0); margin: 2rem 0" />
-      <ConsumptionChart />
-      <ConsumptionCards />
     </div>
+    <ConsumptionChart />
+    <ConsumptionCards />
 
-    <!-- Business Plan Idea -->
-    <hr style="border: 2px solid rgb(0, 0, 0); margin: 3rem 0" />
-    <div class="chat">
-      <h2>Ask AI 🤖</h2>
-      <div
-        @click="fetchData"
-        class="button d-flex justify-content-center align-items-center my-4"
-      >
-        {{ loading ? "Loading..." : "How to Reduce AC Energy Consumption 🚀" }}
-      </div>
+    <div class="w-full rounded-lg p-4 md:p-6">
+      <div class="flex items-start gap-2.5">
+        <span class="rounded-full text-3xl">🤖</span>
 
-      <div class="anwser text-center w-100" v-if="marketingRes">
-        {{ marketingRes }}
+        <div
+          class="flex flex-col w-full max-w-full leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl"
+        >
+          <div class="flex items-center space-x-2 rtl:space-x-reverse">
+            <span class="text-sm font-semibold text-gray-900">Ask AI</span>
+            <span class="text-sm font-normal text-gray-500">11:46</span>
+          </div>
+          <p class="text-sm font-normal py-2.5 text-gray-900">
+            <div @click="fetchData" class="button bg-cyan-500 text-white py-2 px-4 rounded-full cursor-pointer">
+              {{ loading ? "Loading..." : "How to Reduce AC Energy Consumption 🚀" }}
+            </div>
+          </p>
+          <div class="answer text-center mt-4" v-if="marketingRes">
+            {{ marketingRes }}
+          </div>
+          <span class="text-sm font-normal text-gray-500">Delivered</span>
+        </div>
       </div>
     </div>
   </div>
@@ -204,7 +218,7 @@ function fetchData() {
 }
 </script>
 
-<style>
+<!-- <style>
 h1 {
   margin-bottom: 64px;
 }
@@ -520,4 +534,4 @@ strong {
   font-size: 1rem;
   font-weight: 500;
 }
-</style>
+</style> -->
