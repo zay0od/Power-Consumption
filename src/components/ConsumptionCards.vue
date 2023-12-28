@@ -1,7 +1,5 @@
 <template>
-  <hr style="border: 2px solid rgb(0, 0, 0); margin: 3rem 0" />
-
-  <div class="d-flex flex-column gap-3 my-4 mt-5">
+  <div class="flex flex-col gap-3">
     <BaseCard
       title="Total Power Consumption (kW)"
       amount="654 kW"
