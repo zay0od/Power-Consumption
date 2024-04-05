@@ -1,4 +1,4 @@
-# 🚀 Electrical Power Consumption App 
+# 🚀 Reducing Electrical Power Consumption using AI - Web App
 
 🏆 Winner of 1st place at Dubai GITEX Hackathon!
 
