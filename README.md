@@ -4,7 +4,10 @@
 
 ⚡️ Our app, designed for Hackmasters, analyzes electrical power consumption data and displays it on an intuitive web UI.
 
-🌐 Leveraging OpenAI ChatGPT API, we offer smart solutions to reduce power consumption and enhance energy efficiency.
+🌐 Utilizing the OpenAI ChatGPT API and VueJS Framework, We developed an intelligent solution to minimize power usage and enhance energy efficiency. In just 8 hours at the hackathon, We created a web application showcasing household power consumption data, integrating the ChatGPT API for analysis and presentation.
+
+## Simple Demo 🪄
+https://still-thinking-25504.web.app/
 
 
 
